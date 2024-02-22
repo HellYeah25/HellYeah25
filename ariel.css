@@ -1,0 +1,207 @@
+ body {
+  min-height: 1000vh;
+  margin: 0;
+
+}
+ 
+ 
+ * {box-sizing: border-box;
+}
+
+
+
+
+.header {background: url(https://as2.ftcdn.net/v2/jpg/01/96/98/15/1000_F_196981551_SY9pcIbTP4k8ShehnKjtcqAAwMAoqXP9.jpg);
+         width: 100%;
+         opacity: 0.9;
+         left: 0;
+         height: 600px;
+         color: red;
+         font-family: satisfy;
+         text-align: center;
+         padding: 15px;
+         font-size: 50px;
+         text-shadow: 2px 2px rgb(29, 28, 28);
+}
+
+.headerwrt {
+       color: black;
+       padding: 10px;
+       font-style: normal;
+       text-shadow: none;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 15px;
+       border-style: solid;}
+
+.headerexe {font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: normal;
+            text-shadow: none;
+            color: black;
+            text-shadow: 0cap;}
+
+
+.headerbutton {background-color: red;
+               border: none;
+               color: white; 
+               text-shadow: none;
+               font-size: 20px;
+               text-align: center;
+               padding: 15px 32px;
+               display: inline-block;
+               cursor: pointer;
+               margin: 4px 2px;  }
+
+.headerbutton:hover {background-color: darkred;}
+
+.clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+  flex: 70%;
+  background-image: url(https://www.materiel-horeca.com/guide/wp-content/uploads/2020/11/espresso-758x505.jpeg);
+  padding: 20px;
+  color: orange;
+  
+}
+
+.mainfont {
+    font-family: cursive;
+    color: orange;
+}
+
+table, th, td {
+  border: 1 px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
+
+td {
+    text-align: center;
+}
+
+.side {
+  flex: 30%;
+  padding: 20px;
+  background-color: green;
+  opacity: 0.7;
+}
+
+
+.hotdrinks {
+  font-family: cursive;
+  color: orange;
+}
+
+.fa {
+  margin: 4px 6px;
+}
+
+.fa-coffee {
+  color: black ;
+}
+
+.fa-cutlery {
+     color: black;
+}
+
+.fa-facebook {
+   color: black;
+}
+
+.fa-twitter-square {
+    color: black;
+}
+
+.fa-pinterest-p {
+    color: black;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.fa-reddit {
+   color: black;
+}
+fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  height: 60px;
+}
+
+.sidecolddrinks {
+  flex: 30%;
+  background-color: green;
+  opacity: 0.7;
+  padding: 20px;
+}
+
+.maincolddrinks {
+  flex: 70%;
+  color: orange;
+  background-image: url(https://media.istockphoto.com/id/655123574/photo/soft-drinks-splashing.jpg?s=612x612&w=0&k=20&c=iZcaMSEuzxLRy2lpnUw9NhnTcOhYNgxA3poBbjCsSSc=);
+}
+
+.colddrinks {
+  font-family: cursive;
+  color: orange;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row, .header {
+    flex-direction: column;
+  }
+}
+
+.maindessert {
+  flex: 70%;
+  background-image: url(https://images.immediate.co.uk/production/volatile/sites/30/2022/05/Chocolate-sandwich-cupcakes-4b30ada.jpg?quality=90&resize=556,505);
+  color: orange;
+}
+
+.sidedessert {
+   flex: 30%;
+   background-color: green;
+   padding: 20px;
+   opacity: 0.7;
+}
+
+.dessert {
+    font-family: cursive;
+    color: orange;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer {
+  background-color: green;
+  flex: 100%;
+  color: black;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+  }
