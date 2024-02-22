@@ -1,0 +1,108 @@
+body {font-family: "lato", sans-serif;
+      background-image: url(https://www.icmp.ac.uk/sites/default/files/styles/page_background/public/live-performance-tips-for-musicians.jpg?itok=TCJnc-6d);
+      min-height: 1000vh;
+}
+
+* {box-sizing: border-box;} 
+
+.topnav ul {list-style-type: none;
+            overflow: hidden;
+            position: fixed;
+            margin: 0;
+            padding: 0;
+         background-color: transparent;}
+
+li {float: left;}
+
+.topnav a {display: block;
+           color: white;
+           text-align: center;
+           padding: 8px 8px;
+           text-decoration: none;
+           font-size: 80%;}
+
+li a:hover {background-color: rgba(234, 234, 234, 0.5);}
+
+clear::after {content: "";
+              clear: both;
+              display: table;} 
+
+
+.footer {background-color: rgba(234, 234, 234, 0.5);
+         color: white;
+         position: fixed;
+         text-align: center;
+         left: 0;
+         bottom: 60px;
+         text-align: center;
+         width: 100%;
+         }
+        
+.replica { opacity: 0.8;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+ clear::after {content: "";
+               clear: both;
+               display: table;} 
+
+
+.footerend  {background-color: #333;
+             position: fixed;
+             color: white;
+             text-align: center;
+             bottom: 0%;
+             height: 60px;
+             width: 100%;
+             margin-top: 15px;
+             left: 0%;}
+
+
+.fa {padding-bottom: 25px;
+     padding-top: 15px;
+     padding-left: 20px;
+     padding-right: 20px;
+    font-size: 5px;
+    height: 0;
+    text-align: center;
+    width: 8px; 
+    text-decoration: none;
+    margin: 4px 6px;
+    border-radius: 50%;}
+
+.fa:hover {opacity: 0.7;}
+
+
+
+.fa-facebook {background: #3B5998;
+              color: white;
+              }
+
+.fa-twitter {background: #55ACEE;
+             color: white;}
+
+.fa-google {background: #dd4b39;
+            color: white;}
+
+.fa-instagram {background: #125688;
+               color: white;}
+
+.fa-pinterest {background: #cb2027;
+              color: white;}
+              
+clear::after {content: "";
+             clear: both;
+             display: table;} 
+
+@media only screen and (max-width:800px) {
+      .topnav a {
+            width: 80%;
+            float: none;
+      }
+}
+
+@media only screen and (max-width:500px) {
+      .footer, .topnav a, .footerend {
+            width: 100%; 
+            float: none;
+      }
+}
