@@ -1,0 +1,202 @@
+ body {
+  margin: 0;
+  background-color: darkgrey;
+
+}
+ 
+ 
+ * {box-sizing: border-box;
+}
+
+
+
+
+.header {background: url(https://as2.ftcdn.net/v2/jpg/01/96/98/15/1000_F_196981551_SY9pcIbTP4k8ShehnKjtcqAAwMAoqXP9.jpg);
+         width: 100%;
+         opacity: 0.9;
+         left: 0;
+         height: 600px;
+         color: red;
+         font-family: satisfy;
+         text-align: center;
+         padding: 15px;
+         font-size: 50px;
+         text-shadow: 2px 2px rgb(29, 28, 28);
+}
+
+.headerwrt {
+       color: black;
+       padding: 10px;
+       font-style: normal;
+       text-shadow: none;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 15px;
+       border-style: solid;}
+
+.headerexe {font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            font-weight: normal;
+            text-shadow: none;
+            color: black;
+            text-shadow: 0cap;}
+
+
+.headerbutton {background-color: red;
+               font-family: satisfy;
+               border: none;
+               color: white; 
+               text-shadow: none;
+               font-size: 20px;
+               text-align: center;
+               padding: 15px 32px;
+               display: inline-block;
+               cursor: pointer;
+               margin: 4px 2px;  }
+
+.headerbutton:hover {background-color: darkred;}
+
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.main {
+    flex: 50%;
+    padding: 20px;
+}
+
+.main2 {
+   flex: 50%;
+   padding: 20px;
+}
+
+.maincourse {
+    background-color: orange;
+    color: black;
+    font-family: satisfy;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+table {
+   text-align: left;
+   width: 100%;
+
+
+}
+
+th, td {
+   height: 75px;
+   padding: 8px;
+  
+}
+
+.img1 {
+     background-image: url(https://www.solopress.com/blog/wp-content/uploads/2014/09/shutterstock_334960748.jpg);
+     border-radius: 50px;
+     height: 50%;
+     width: 100%;
+     object-fit: cover;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .row {
+     flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .row {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .row {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .row {
+     flex-direction: inherit;
+  }
+}
+
+.beverages {
+   background-color: orange;
+   font-family: satisfy;
+   color: black;
+   width: 200px;
+   border-radius: 50px;
+   text-align: center;
+}
+
+.img2 {
+   background-image: url(https://cf8480cb.flyingcdn.com/wp-content/uploads/2022/02/Best-Dry-Rub-Chicken-Wings-Recipe.jpg?width=700vv);
+   border-radius: 50px;
+   height: 50%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.appetizers {
+    background-color: orange;
+    color: black;
+    font-family: satisfy;
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.img3 {
+  background-image: url(https://www.instacart.com/company/wp-content/uploads/2023/01/birthday-cocktails-hero-500x500.jpg);
+  border-radius: 50px;
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.excel {
+  color: black;
+  font-family: cursive;
+  float: left;
+  background-color: orange;
+  border-radius: 80px;
+}
+
+.fa {
+  margin: 4px 6px;
+}
+
+.fa-phone-square {
+  color: black;
+}
+
+.fa-map-marker {
+   color: black;
+}
+
+.excel2 {
+   color: black;
+   float: right;
+   font-family: cursive;
+   background-color: orange;
+   border-radius: 80px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
